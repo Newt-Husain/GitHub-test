@@ -39,7 +39,7 @@ target_time = 10.0
 idx = np.argmin(np.abs(time - target_time))
 t_val = time[idx]
 s_val = car_speed[idx]
-print(f"At time {t_val:.2f} s, car speed is {s_val:.2f} mph")
+print(f"At time {t_val:.2f} s, the car's speed is {s_val:.2f} mph")
 plt.scatter(t_val, s_val, color = "red", zorder = 5)
 
 # And finally this shows a completed graph :]
